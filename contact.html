@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <title>Kontakt - Murár Bratislava</title>
+        
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Stavebné služby v Bratislave - rekonštrukcie bytov, elektroinštalácia a vodoinštalácia, upratovanie, sťahovanie, maliarske práce a mnoho ďaľších">
+        <meta name="keywords" content="stavebné práce, rekonštrukcie bytov,
+                                       Sadrokartón, omietky, stierky,
+                                       maliarske práce, obklady, dlažby,
+                                       zateplenie, fasády, elektroinštalácia, vodoinštalácia,
+                                       predaj a odvoz materiálu, sťahovanie, okná, dvere,
+                                       projektovanie, upratovanie, čistenie, potery, nivelizácia,
+                                       nástup do 48 hodín, realizácia na kľúč">
+        
+        <link rel="icon" type="image/png" sizes="64x64" href="favicon.ico">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/mobilemenu.css" />
+        <link rel="stylesheet" type="text/css" href="css/contact.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    </head>
+    
+    <body>
+        <a id="arrow" href="#header">
+            <ion-icon id="icon" name="arrow-up-outline"></ion-icon>
+        </a>
+        
+        <div id="header">
+            <div class="content">
+                <img class="logo" src="assets/logo.png" />
+                <h2 class="title">murar-ba.sk</h2>
+                
+                <div style="flex: 1;"></div>
+                
+                <a class="button" href="contact.html">Kontaktujte nás</a>
+            </div>
+        </div>
+        
+        <div id="menu">
+            <div class="content">
+                <div class="links">
+                    <a class="item" href="index.html">Domov</a>
+                    <a class="item" href="index.html#services">Služby</a>
+                    <a class="item" href="index.html#about">Prečo my?</a>
+                    <a class="item" href="index.html#about">O nás</a>
+                    <a class="item" href="gallery.html">Galéria</a>
+                    <a class="item" href="contact.html">Kontakt</a>
+                    <a class="item" href="https://www.youtube.com/watch?v=0OzcTXaZuBk"><ion-icon class="icon" name="logo-youtube"></ion-icon> Youtube</a>
+                </div>
+                
+                <div style="flex: 1;"></div>
+
+                <div class="info">
+                    <a class="item" href="tel: +421-949-643-351"><ion-icon class="icon" name="call"></ion-icon>+421 949 643 351</a>
+                    <a class="item" href="mailto:info@murar-ba.sk"><ion-icon class="icon" name="mail"></ion-icon>info@murar-ba.sk</a>
+                </div>
+                
+                <a class="button" onclick="showMenu()" id="button">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a>
+            </div>
+        </div>
+        
+        <div id="mobile-menu">
+            <div class="content" id="mobile-menu-content">
+                <div class="item">
+                    <ion-icon class="icon" name="home"></ion-icon>
+                    <a class="link" href="index.html">Domov</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="hammer"></ion-icon>
+                    <a class="link" href="index.html#services">Služby</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="help"></ion-icon>
+                    <a class="link" href="index.html#about">Prečo my?</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="people"></ion-icon>
+                    <a class="link" href="index.html#about">O nás</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="images"></ion-icon>
+                    <a class="link" href="gallery.html">Galéria</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="person"></ion-icon>
+                    <a class="link" href="contact.html">Kontakt</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="logo-youtube"></ion-icon>
+                    <a class="link" href="https://www.youtube.com/watch?v=0OzcTXaZuBk">Youtube</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="contact">
+            <h2 class="title">Napíšte nám, radi Vám pomôžeme</h2>
+            
+            <div class="content">
+                <div class="form">
+                    <form class="send-form" action="php/contact.php" method="post">
+                        <input class="input" type="text" name="name" placeholder="Meno a priezvisko" required>
+                        <input class="input" type="email" name="email" placeholder="E-mail" required>
+                        <input class="input" type="text" name="phone" placeholder="Telefón" required>
+                        <textarea class="text" name="message" placeholder="Správa" rows="10" required></textarea>
+
+                        <input class="submit" name="submit" type="submit" value="Odoslať">
+                    </form>
+                </div>
+                
+                <div class="info">
+                    <a class="item" href="http://maps.google.com/?q=murar-ba">
+                        <!--<img class="image" src="assets/icon-address.png" />-->
+                        <ion-icon class="icon" name="location-outline"></ion-icon>
+                        <h3 class="text">Trnavská cesta 164/46, 821 02 Bratislava</h3>
+                    </a>
+                    
+                    <a class="item" href="tel: +421-949-643-351">
+                        <!--<img class="image" src="assets/icon-phone.png" />-->
+                        <ion-icon class="icon" name="call-outline"></ion-icon>
+                        <h3 class="text">+421 949 643 351</h3>
+                    </a>
+                    
+                    <a class="item" href="mailto:info@murar-ba.sk">
+                        <!--<img class="image" src="assets/icon-email.png" />-->
+                        <ion-icon class="icon" name="mail-outline"></ion-icon>
+                        <h3 class="text">info@murar-ba.sk</h3>
+                    </a>
+                    
+                    <a class="item" href="http://murar-ba.sk">
+                        <!--<img class="image" src="assets/icon-globe.png" />-->
+                        <ion-icon class="icon" name="globe-outline"></ion-icon>
+                        <h3 class="text">www.murar-ba.sk</h3>
+                    </a>
+                    
+                    <br />
+                    <br />
+                    
+                    <div class="item">
+                        <!--<img class="image" src="assets/icon-legal.png" />-->
+                        <ion-icon class="icon" name="document-text-outline"></ion-icon>
+                        <h3 class="text">JURMASTAV s.r.o.</h3>
+                    </div>
+                    
+                    <div class="item">
+                        <!--<img class="image" src="assets/icon-legal.png" />-->
+                        <ion-icon class="icon" name="document-text-outline" style="visibility: hidden;"></ion-icon>
+                        <h3 class="text">IČO: 52290085</h3>
+                    </div>
+                    
+                    <div class="item">
+                        <!--<img class="image" style="visibility: hidden;" />-->
+                        <ion-icon class="icon" name="document-text-outline" style="visibility: hidden;"></ion-icon>
+                        <h3 class="text">DIČ DPH: 2120993160</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.3189107044614!2d17.140741915395626!3d48.16193455744363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8ece998b63c7%3A0xb0cd07a20df58ba!2sRekon%C5%A1trukcie%20bytov%20%7C%20maliarske%20pr%C3%A1ce%20%7C%20mur%C3%A1rske%20pr%C3%A1ce%20%7C%20stierky!5e0!3m2!1sen!2ssk!4v1595589834225!5m2!1sen!2ssk" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+        <div id="footer">
+            <div class="content">
+                <div class="column">
+                    <img class="logo" src="assets/logo.png" />
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Menu</h2>
+                    
+                    <a class="item" href="index.html">Domov</a>
+                    <a class="item" href="index.html#services">Služby</a>
+                    <a class="item" href="index.html#about">Prečo my?</a>
+                    <a class="item" href="index.html#about">O nás</a>
+                    <a class="item" href="contact.html">Kontakt</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Hlavné služby</h2>
+                    
+                    <a class="item" href="index.html#services">Rekonštrukcie bytov</a>
+                    <a class="item" href="index.html#services">Sadrokartón</a>
+                    <a class="item" href="index.html#services">Omietky/Stierky</a>
+                    <a class="item" href="index.html#services">Maliarske práce</a>
+                    <a class="item" href="index.html#services">Obklady a dlažby</a>
+                    <a class="item" href="index.html#services">Zateplenie a fasády</a>
+                    <a class="item" href="index.html#services">Vodoinštalácia</a>
+                    <a class="item" href="index.html#services">Elektroinštalácia</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Doplnkové služby</h2>
+                    
+                    <a class="item" href="index.html#services">Predaj a odvoz materiálu</a>
+                    <a class="item" href="index.html#services">Sťahovanie</a>
+                    <a class="item" href="index.html#services">Okná a dvere</a>
+                    <a class="item" href="index.html#services">Zámkové dlažby</a>
+                    <a class="item" href="index.html#services">Upratovanie a čistenie</a>
+                    <a class="item" href="index.html#services">Potery a nivelizácia</a>
+                    <a class="item" href="index.html#services">Murárske práce</a>
+                    <a class="item" href="index.html#services">Realizácia na kľúč</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Kontakt</h2>
+                    
+                    <a class="item" href="http://maps.google.com/?q=murar-ba">Trnavská cesta 164/46, 821 02 Bratislava</a>
+                    <a class="item" href="tel: +421-949-643-351">+421 949 643 351</a>
+                    <a class="item" href="mailto:info@murar-ba.sk">info@murar-ba.sk</a>
+                    <br />
+                    <h5 class="item" href="">JURMASTAV s.r.o.</h5>
+                    <h5 class="item" href="">IČO: 52290085</h5>
+                    <h5 class="item" href="">DIČ DPH: 2120993160</h5>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <h2 class="text">© 2020 murar-ba.sk | Web created by <a style="color: #FBC638;" href="http://www.advision.sk">AdVision</a></h2>
+            </div>
+        </div>
+        
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="js/slideshow.js"></script>
+        <script src="js/menu.js"></script>
+        <script>
+            scrollToElement("#arrow");
+            
+            function scrollToElement(button) {
+                $(document).ready(function(){
+                    $(button).on('click', function(event) {
+                        if (this.hash !== "") {
+                            event.preventDefault();
+
+                            var hash = this.hash;
+
+                            $('html, body').animate({
+                                scrollTop: $(hash).offset().top
+                            }, 800, function(){
+                                window.location.hash = hash;
+                            });
+                        }
+                    });
+                });   
+            }
+        </script>
+        <script>
+            $(window).scroll(function() {    
+                var offset = window.pageYOffset;
+                
+                if (offset > 300) {
+                    document.getElementById("arrow").style.opacity = "1";
+                } else {
+                    document.getElementById("arrow").style.opacity = "0";
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <title>Stavebné služby - Rekonštrukcie bytov | Maliarske práce</title>
+        
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Stavebné služby v Bratislave - rekonštrukcie bytov, elektroinštalácia a vodoinštalácia, upratovanie, sťahovanie, maliarske práce a mnoho ďaľších">
+        <meta name="keywords" content="stavebné práce, rekonštrukcie bytov,
+                                       Sadrokartón, omietky, stierky,
+                                       maliarske práce, obklady, dlažby,
+                                       zateplenie, fasády, elektroinštalácia, vodoinštalácia,
+                                       predaj a odvoz materiálu, sťahovanie, okná, dvere,
+                                       projektovanie, upratovanie, čistenie, potery, nivelizácia,
+                                       nástup do 48 hodín, realizácia na kľúč">
+        
+        <link rel="icon" type="image/png" sizes="64x64" href="favicon.ico">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/mobilemenu.css" />
+        <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+        <link rel="stylesheet" type="text/css" href="css/services.css" />
+        <link rel="stylesheet" type="text/css" href="css/about.css" />
+        <link rel="stylesheet" type="text/css" href="css/motto.css" />
+        <link rel="stylesheet" type="text/css" href="css/partners.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    </head>
+    
+    <body>
+        <a id="arrow" href="#header">
+            <ion-icon id="icon" name="arrow-up-outline"></ion-icon>
+        </a>
+        
+        <div id="header">
+            <div class="content">
+                <img class="logo" src="assets/logo.png" alt="logo" />
+                <h2 class="title">murar-ba.sk</h2>
+                
+                <div style="flex: 1;"></div>
+
+                <a class="button" href="contact.html">Kontaktujte nás</a>
+            </div>
+        </div>
+        
+        <div id="menu">
+            <div class="content">
+                <div class="links">
+                    <a class="item" href="#header">Domov</a>
+                    <a class="item" href="#services">Služby</a>
+                    <a class="item" href="#about">Prečo my?</a>
+                    <a class="item" href="#about">O nás</a>
+                    <a class="item" href="gallery.html">Galéria</a>
+                    <a class="item" href="contact.html">Kontakt</a>
+                    <a class="item" href="https://www.youtube.com/watch?v=0OzcTXaZuBk"><ion-icon class="icon" name="logo-youtube"></ion-icon> Youtube</a>
+                </div>
+                
+                <div style="flex: 1;"></div>
+
+                <div class="info">
+                    <a class="item" href="tel: +421-949-643-351"><ion-icon class="icon" name="call"></ion-icon>+421 949 643 351</a>
+                    <a class="item" href="mailto:info@murar-ba.sk"><ion-icon class="icon" name="mail"></ion-icon>info@murar-ba.sk</a>
+                </div>
+                
+                <a class="button" onclick="showMenu()" id="button">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a>
+            </div>
+        </div>
+        
+        <div id="mobile-menu">
+            <div class="content" id="mobile-menu-content">
+                <div class="item">
+                    <ion-icon class="icon" name="home"></ion-icon>
+                    <a class="link" href="index.html">Domov</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="hammer"></ion-icon>
+                    <a class="link" href="#services">Služby</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="help"></ion-icon>
+                    <a class="link" href="#about">Prečo my?</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="people"></ion-icon>
+                    <a class="link" href="#about">O nás</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="images"></ion-icon>
+                    <a class="link" href="gallery.html">Galéria</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="person"></ion-icon>
+                    <a class="link" href="contact.html">Kontakt</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="logo-youtube"></ion-icon>
+                    <a class="link" href="https://www.youtube.com/watch?v=0OzcTXaZuBk">Youtube</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="slideshow">
+            <div class="content">
+                <div class="inner" id="slides">
+                    <div class="slide">
+                        <img class="image" src="assets/slide-1-new.jpg" alt="slide-1" />
+                        
+                        <div class="info">
+                            <h1 class="title">Stavebné služby v Bratislave</h1>
+                            <p class="text">Ak hľadáte rýchle a cenovo výhodné stavebné služby v Bratislave, ste na správnom mieste. Neváhajte nás kontaktovať s akýmikoľvek požiadavkami</p>
+                            <a class="button" href="#services">Zisti viac</a>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img class="image" src="assets/slide-2-new.jpg" alt="slide-2" />
+                        
+                        <div class="info">
+                            <h2 class="title">Rekonštrukcie bytov v Bratislave</h2>
+                            <p class="text">Ponúkame kompletnú rekonštrukciu bytov, vrátane dlažieb, zateplenia, maliarslych prác, vodoinštalácie, elektroinštalácie až po rekonštrukciu okien</p>
+                            <a class="button" href="#services">Zisti viac</a>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img class="image" src="assets/slide-3-new.jpg" alt="slide-3" />
+                        
+                        <div class="info">
+                            <h2 class="title">Široký výber služieb</h2>
+                            <p class="text">Ponúkame široký výber služieb, v ktorom si každý nájde presne to, čo potrebuje. Okrem rekonštrukcie Vám odvezieme materiál a upraceme Vám po sebe</p>
+                            <a class="button" href="#services">Zisti viac</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <img class="button" id="arrow-left" src="assets/arrow-left.png" alt="slide-arrow-left" onclick="previousSlide()" style="opacity: 0;" />
+                <img class="button" id="arrow-right" src="assets/arrow-right.png" alt="slide-arrow-right" onclick="nextSlide()" />
+            </div>
+        </div>
+        
+        <div id="services">
+            <h2 class="title">Naše služby</h2>
+            <p class="description">
+                Ponúkame široký výber služieb, od rekonštrukcií bytov, cez maliarske práce, až po sťahovanie. Prekliknite sa medzi hlavnými a doplnkovými službami. V prípade akýchkoľvek otázok nás neváhajte <a style="color: #FBC638" href="contact.html">kontaktovať</a>.
+            </p>
+            
+            <div class="menu">
+                <ion-icon onclick="moveCategory(0)" id="service-arrow-left" name="arrow-back-outline" class="arrow"></ion-icon>
+                <div class="data" id="categories">
+                    <a class="category" onclick="moveCategory(0)" href="#services">Hlavné služby</a>
+                    <a class="category" onclick="moveCategory(1)" href="#services">Doplnkové práce</a>
+                    
+                    <div id="selector"></div>
+                </div>
+                <ion-icon onclick="moveCategory(1)" id="service-arrow-right" name="arrow-forward-outline" class="arrow"></ion-icon>
+            </div>
+            
+            <div class="scroll-container">
+                <div id="scroll-content">
+                    <div class="content">
+                        <div class="panel">
+                            <div class="item">
+                                <img class="image" src="assets/image-rekonstrukcia-bytov.jpg" alt="image-rekonstrukcia-bytov" />
+                                <h3 class="title">Rekonštrukcie bytov</h3>
+                                <p class="text">
+                                    Vykonávame rekonštrukcie bytov aj domov. Špecializujeme sa na rekonštrukcie bytov, rekonštrukcie kúpeľne a rekonštrukcie bytového jadra. Prerábky a prestavby pre nás nie sú problém.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-sadrokarton.jpg" alt="image-sadrokarton" />
+                                <h3 class="title">Sadrokartón</h3>
+                                <p class="text">
+                                    Realizujeme montáž sádrokartónových a minerálnych podhľadov, stropov a priečok. Pomôžeme Vám vyriešiť zníženie stropu či sadrokartonovú priečku vo Vašom dome či byte.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-omietky-stierky.jpg" alt="image-omietky-stierky" />
+                                <h3 class="title">Omietky/Stierky</h3>
+                                <p class="text">
+                                    Vykonávame sadrové omietky a stierky na stenu, strop či betón. Poznáme výhody a vlastnosti použitia sadrových omietok a stierok. Vyberieme to najlepšie pre vašu stavbu.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-malovanie.jpeg" alt="image-malovanie" />
+                                <h3 class="title">Maliarske práce</h3>
+                                <p class="text">
+                                    Naša profesionálna ponuka zahŕňa maľovanie stien, bytov aj domov. Vyberáme tie najlepšie farby a overené postupy pre perfektné maľovanie Vašej steny v dome či byte.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="item">
+                                <img class="image" src="assets/image-obklady-dlazby.jpg" alt="image-obklady-dlazby" />
+                                <h3 class="title">Obklady a dlažby</h3>
+                                <p class="text">
+                                    Odborne realizujeme pokládku obkladov a dlažby, kobercov, pokládku PVC, laminátových, vinylových a drevených podláh. Obklady a dlažby sú veľmi praktickým, estetickým a odolným riešením.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-zateplenie-fasady.jpeg" alt="image-zateplenie-fasady" />
+                                <h3 class="title">Zateplenie a fasády</h3>
+                                <p class="text">
+                                    Vykonávame zateplenie fasády podľa vašich požiadaviek. Kontaktuje nás a jednoducho si zistíte cenu za zateplenie a fasádu Vášho domu. Zateplenie domu prispieva k zníženiu nákladov.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-vodoinstalacia.jpg" alt="image-vodoinstalacia" />
+                                <h3 class="title">Vodoinštalácia</h3>
+                                <p class="text">
+                                    Zabezpečujeme kompletnú montáž vodovodných rozvodov pri novostavbách, bytoch, či domoch. Poskytujeme služby a práce v oblasti vodoinštalácií a kanalizačných rozvodov.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-elektroinstalacia.jpg" alt="image-elektroinstalacia" />
+                                <h3 class="title">Elektroinštalácia</h3>
+                                <p class="text">
+                                    Realizujeme kompletné elektroinštalácie v domoch, bytoch, halách či novostavbách.  Postaráme sa o výmenu starých rozvodov a zapojenie všetkých vypínačov, zásuviek a svietidiel.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="panel">
+                            <div class="item">
+                                <img class="image" src="assets/image-material.jpg" alt="image-material" />
+                                <h3 class="title">Predaj a odvoz materiálu</h3>
+                                <p class="text">
+                                    Radi Vám zabezpečíme nákup stavebného materiálu. Kalkuláciu ceny a množstva nechajte na nás. Konzultácie pri výbere toho správneho materiálu pre Vašu stavbu máte bezplatnú.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-stahovanie.jpg" alt="image-stahovanie" />
+                                <h3 class="title">Sťahovanie</h3>
+                                <p class="text">
+                                    Ponúkame sťahovanie bytov, firiem, domov a kancelárskych priestorov. Potrebujete profesionálne a bezpečne presťahovať Váš majetok? Nechajte všetky práce spojené so sťahovaním na nás.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-okna.jpg" alt="image-okna" />
+                                <h3 class="title">Okná a dvere</h3>
+                                <p class="text">
+                                    Pomôžeme Vám s výberom okien a dverí do Vášho domu či bytu. Vyberáme podľa Vašich predstáv, požiadaviek a potrebných parametrov. Samozrejmosťou je vhodný dizajn.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-zamkove-dlazby.jpeg" alt="image-zamkove-dlazby" />
+                                <h3 class="title">Zámkové dlažby</h3>
+                                <p class="text">
+                                   Realizujeme zámkové dlažby a pokládky dlažby na terče. Postaráme sa o odstránenie starej dlažby, či o prípadnú úpravu povrchu pred pokládkou.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="item">
+                                <img class="image" src="assets/image-upratovanie.jpg" alt="image-upratovanie" />
+                                <h3 class="title">Upratovanie a čistenie</h3>
+                                <p class="text">
+                                    Našim zákazníkom ponúkame doplnkovú službu upratovanie a čistenie. Po dokončení našich prác sa môžete rovno presťahovať do vyčisteného priestoru, bez čakania na novú firmu.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-potery.jpg" alt="image-potery" />
+                                <h3 class="title">Potery a nivelizácia</h3>
+                                <p class="text">
+                                    Zabezpečujeme profesionálne potery a nivelizáciu. Ak potrebujete riešiť iba drobnú nerovnosť, najvhodnejším spôsobom úpravy je nivelizácia. Neváhajte nás kontaktovať.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-nastup.jpg" alt="image-nastup" />
+                                <h3 class="title">Murárske práce</h3>
+                                <p class="text">
+                                    Realizujeme kompletné murárske práce. Murár-BA Vám zabezpečí murárske práce na profesionálnej úrovni s rýchlym nástupom.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                            <div class="item">
+                                <img class="image" src="assets/image-kluc.jpg" alt="image-kluc" />
+                                <h3 class="title">Realizácia na kľúč</h3>
+                                <p class="text">
+                                    V skratke nebudete mať pri realizácii na kľúč s vašim projektom žiadne starosti. Ku každému klientovi pristupujeme individuálne. Stačí nás kontaktovať a hneď sa Vám venujeme.
+                                </p>
+                                <a class="button" href="contact.html">Mám záujem</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="about">
+            <div class="whyus">
+                <h2 class="title">Prečo si vybrať nás</h2>
+                    
+                <div class="content">
+                    <div class="item">
+                        <img class="image" src="assets/icon-ten.png" alt="icon-ten" />
+                        <h3 class="text">Na Slovensku úspešne pôsobíme už viac ako desať rokov, počas ktorých sme získali množstvo skúsenosti</h3>
+                    </div>
+                    <div class="item">
+                        <img class="image" src="assets/icon-tools.png" alt="icon-tools" />
+                        <h3 class="text">Sme vybavení profesionálnym naradím, s pomocou ktorého si vieme poradiť s akýmikoľvek prácami</h3>
+                    </div>
+                    <div class="item">
+                        <img class="image" src="assets/icon-material.png" alt="icon-material" />
+                        <h3 class="text">Používame kvalitný stavebný materiál, preto Vám vieme zaručíť kvalitu, dlhotrvácnosť a odolnosť</h3>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="aboutus">
+                <h2 class="title">Kto sme?</h2>
+                    
+                <p class="text">
+                    Už viac ako 10 rokov ponúkame širokú škálu stavebných služieb v Bratislave a blízkom okolí. Snažíme sa zachovať najvyššie štandardy a zároveň prekročiť očakávania klientov na všetkých úrovniach. Cenová dostupnosť, komunikácia na úrovni a dokončenie prác načas sú naše priority.
+                </p>
+                
+                <h3 class="link">Pozrite si video o <a style="color: #FBC638" href="https://www.youtube.com/watch?v=0OzcTXaZuBk">našich prácach</a>.</h3>
+            </div>
+        </div>
+        
+        <div id="motto">
+            <img class="image" src="assets/slide-1.jpg" alt="image-motto" />
+            <div class="overlay"></div>
+            
+            <div class="info">
+                <p class="text">
+                    Naším sľubom ako dodávateľom je vybudovať hodnotu komunity pre každý projekt pri súčasnom poskytovaní odborných znalostí, výnimočných zákazníckych služieb a kvalitnej konštrukcie.
+                </p>
+            </div>
+        </div>
+        
+        <div id="partners">
+            <div class="content">
+                <h2 class="title">Naši dodávatelia</h2>
+                
+                <div class="list">
+                    <div class="panel">
+                        <div class="item"><img class="image" src="assets/company-logo-1.png" alt="logo-company-1" /></div>
+                        <div class="item"><img class="image" src="assets/company-logo-2.jpg" alt="logo-company-2" /></div>
+                        <div class="item"><img class="image" src="assets/company-logo-3.jpg" alt="logo-company-3" /></div>
+                    </div>
+                    <div class="panel">
+                        <div class="item"><img class="image" src="assets/company-logo-4.jpg" alt="logo-company-4" /></div>
+                        <div class="item"><img class="image" src="assets/company-logo-5.jpg" alt="logo-company-5" /></div>
+                        <div class="item"><img class="image" src="assets/company-logo-6.jpg" alt="logo-company-6" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div class="content">
+                <div class="column">
+                    <img class="logo" src="assets/logo.png" alt="logo" />
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Menu</h2>
+                    
+                    <a class="item" href="#header">Domov</a>
+                    <a class="item" href="#services">Služby</a>
+                    <a class="item" href="#about">Prečo my?</a>
+                    <a class="item" href="#about">O nás</a>
+                    <a class="item" href="contact.html">Kontakt</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Hlavné služby</h2>
+                    
+                    <a class="item" href="#services">Rekonštrukcie bytov</a>
+                    <a class="item" href="#services">Sadrokartón</a>
+                    <a class="item" href="#services">Omietky/Stierky</a>
+                    <a class="item" href="#services">Maliarske práce</a>
+                    <a class="item" href="#services">Obklady a dlažby</a>
+                    <a class="item" href="#services">Zateplenie a fasády</a>
+                    <a class="item" href="#services">Vodoinštalácia</a>
+                    <a class="item" href="#services">Elektroinštalácia</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Doplnkové služby</h2>
+                    
+                    <a class="item" href="#services">Predaj a odvoz materiálu</a>
+                    <a class="item" href="#services">Sťahovanie</a>
+                    <a class="item" href="#services">Okná a dvere</a>
+                    <a class="item" href="#services">Zámkové dlažby</a>
+                    <a class="item" href="#services">Upratovanie a čistenie</a>
+                    <a class="item" href="#services">Potery a nivelizácia</a>
+                    <a class="item" href="#services">Murárske práce</a>
+                    <a class="item" href="#services">Realizácia na kľúč</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Kontakt</h2>
+                    
+                    <a class="item" href="http://maps.google.com/?q=murar-ba">Trnavská cesta 164/46, 821 02 Bratislava</a>
+                    <a class="item" href="tel: +421-949-643-351">+421 949 643 351</a>
+                    <a class="item" href="mailto:info@murar-ba.sk">info@murar-ba.sk</a>
+                    <br />
+                    <h5 class="item" href="">JURMASTAV s.r.o.</h5>
+                    <h5 class="item" href="">IČO: 52290085</h5>
+                    <h5 class="item" href="">DIČ DPH: 2120993160</h5>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <h2 class="text">© 2020 murar-ba.sk | Web created by <a style="color: #FBC638;" href="http://www.advision.sk">AdVision</a></h2>
+            </div>
+        </div>
+        
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="js/slideshow.js"></script>
+        <script src="js/menu.js"></script>
+        <script>
+            scrollToElement("#menu .content .links .item");
+            scrollToElement("#footer .content .column .item");
+            scrollToElement("#services .menu .data .category");
+            scrollToElement("#slideshow .content .inner .slide .info a");
+            scrollToElement("#arrow");
+            scrollToElementOnMenu("#mobile-menu .content .item .link");
+            
+            function scrollToElement(button) {
+                $(document).ready(function(){
+                    $(button).on('click', function(event) {
+                        if (this.hash !== "") {
+                            event.preventDefault();
+
+                            var hash = this.hash;
+
+                            $('html, body').animate({
+                                scrollTop: $(hash).offset().top
+                            }, 800, function(){
+                                window.location.hash = hash;
+                            });
+                        }
+                    });
+                });   
+            }
+            
+            function scrollToElementOnMenu(button) {
+                $(document).ready(function(){
+                    $(button).on('click', function(event) {
+                        if (this.hash !== "") {
+                            event.preventDefault();
+
+                            var hash = this.hash;
+                            
+                            document.getElementById("mobile-menu").style.height = "0px";
+                            document.getElementById("button").setAttribute("onclick", "javascript:showMenu();");
+
+                            var delayInMilliseconds = 500; //1 second
+
+                            setTimeout(function() {
+                                $('html, body').animate({
+                                    scrollTop: $(hash).offset().top
+                                }, 800, function(){
+                                    window.location.hash = hash;
+                                });
+                            }, delayInMilliseconds);
+                        }
+                    });
+                }); 
+            }
+        </script>
+        <script>
+            function moveCategory(index) {
+                var selector = document.getElementById("selector");
+                var width = document.getElementById("categories").offsetWidth;
+                
+                var scrollContent = document.getElementById("scroll-content");
+                
+                if (index == 0) {
+                    selector.style.left = "0px";
+                    scrollContent.style.marginLeft = "0px";
+                    
+                    document.getElementById("service-arrow-right").style.opacity = "1";
+                    document.getElementById("service-arrow-left").style.opacity = "0";
+                } else if (index == 1) {
+                    selector.style.left = "50%";
+                    scrollContent.style.marginLeft = "-100%";
+                    
+                    document.getElementById("service-arrow-right").style.opacity = "0";
+                    document.getElementById("service-arrow-left").style.opacity = "1";
+                }
+            }
+        </script>
+        <script>
+            $(window).scroll(function() {    
+                var offset = window.pageYOffset;
+                
+                if (offset > 300) {
+                    document.getElementById("arrow").style.opacity = "1";
+                } else {
+                    document.getElementById("arrow").style.opacity = "0";
+                }
+            });
+        </script>
+    </body>
+</html>

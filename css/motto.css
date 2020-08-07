@@ -1,0 +1,152 @@
+@media only screen and (min-width: 1000px) {
+    #motto {
+        width: 100%;
+        height: 200px;
+
+        position: relative;
+    }
+
+    #motto .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #motto .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background-color: #FBC638;
+        opacity: 0.8;
+    }
+
+    #motto .info {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #motto .info .text {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    #motto {
+        width: 100%;
+        height: 200px;
+
+        position: relative;
+    }
+
+    #motto .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #motto .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background-color: #FBC638;
+        opacity: 0.8;
+    }
+
+    #motto .info {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #motto .info .text {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #motto {
+        width: 100%;
+        height: 300px;
+
+        position: relative;
+    }
+
+    #motto .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #motto .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background-color: #FBC638;
+        opacity: 0.8;
+    }
+
+    #motto .info {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #motto .info .text {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+    }
+}

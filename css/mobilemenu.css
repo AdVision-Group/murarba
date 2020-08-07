@@ -1,0 +1,54 @@
+@media only screen and (min-width: 700px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #mobile-menu {
+        width: 100%;
+        height: 0px;
+
+        background-color: #262626;
+
+        transition: height 500ms ease;
+
+        display: flex;
+        flex-direction: column;
+        
+        overflow: hidden;
+    }
+
+    #mobile-menu .content {
+        /*flex: 1;
+        display: flex;
+        flex-direction: column;*/
+
+        display: inline-block;
+
+        padding: 20px;
+    }
+
+    #mobile-menu .content .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin-bottom: 15px;
+    }
+
+    #mobile-menu .content .item .icon {
+        width: 25px;
+        height: 25px;
+
+        margin-right: 10px;
+
+        color: #FBC638;
+    }
+
+    #mobile-menu .content .item .link {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

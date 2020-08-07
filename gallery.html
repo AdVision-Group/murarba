@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <title>Galéria</title>
+        
+        <meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Stavebné služby v Bratislave - rekonštrukcie bytov, elektroinštalácia a vodoinštalácia, upratovanie, sťahovanie, maliarske práce a mnoho ďaľších">
+        <meta name="keywords" content="stavebné práce, rekonštrukcie bytov,
+                                       Sadrokartón, omietky, stierky,
+                                       maliarske práce, obklady, dlažby,
+                                       zateplenie, fasády, elektroinštalácia, vodoinštalácia,
+                                       predaj a odvoz materiálu, sťahovanie, okná, dvere,
+                                       projektovanie, upratovanie, čistenie, potery, nivelizácia,
+                                       nástup do 48 hodín, realizácia na kľúč">
+        
+        <link rel="icon" type="image/png" sizes="64x64" href="favicon.ico">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/mobilemenu.css" />
+        <link rel="stylesheet" type="text/css" href="css/gallery.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    </head>
+    
+    <body>
+        <a id="arrow" href="#header">
+            <ion-icon id="icon" name="arrow-up-outline"></ion-icon>
+        </a>
+        
+        <div id="header">
+            <div class="content">
+                <img class="logo" src="assets/logo.png" />
+                <h2 class="title">murar-ba.sk</h2>
+                
+                <div style="flex: 1;"></div>
+                
+                <a class="button" href="contact.html">Kontaktujte nás</a>
+            </div>
+        </div>
+        
+        <div id="menu">
+            <div class="content">
+                <div class="links">
+                    <a class="item" href="index.html">Domov</a>
+                    <a class="item" href="index.html#services">Služby</a>
+                    <a class="item" href="index.html#about">Prečo my?</a>
+                    <a class="item" href="index.html#about">O nás</a>
+                    <a class="item" href="gallery.html">Galéria</a>
+                    <a class="item" href="contact.html">Kontakt</a>
+                    <a class="item" href="https://www.youtube.com/watch?v=0OzcTXaZuBk"><ion-icon class="icon" name="logo-youtube"></ion-icon> Youtube</a>
+                </div>
+                
+                <div style="flex: 1;"></div>
+
+                <div class="info">
+                    <a class="item" href="tel: +421-949-643-351"><ion-icon class="icon" name="call"></ion-icon>+421 949 643 351</a>
+                    <a class="item" href="mailto:info@murar-ba.sk"><ion-icon class="icon" name="mail"></ion-icon>info@murar-ba.sk</a>
+                </div>
+                
+                <a class="button" onclick="showMenu()" id="button">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a>
+            </div>
+        </div>
+        
+        <div id="mobile-menu">
+            <div class="content" id="mobile-menu-content">
+                <div class="item">
+                    <ion-icon class="icon" name="home"></ion-icon>
+                    <a class="link" href="index.html">Domov</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="hammer"></ion-icon>
+                    <a class="link" href="index.html#services">Služby</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="help"></ion-icon>
+                    <a class="link" href="index.html#about">Prečo my?</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="people"></ion-icon>
+                    <a class="link" href="index.html#about">O nás</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="images"></ion-icon>
+                    <a class="link" href="gallery.html">Galéria</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="person"></ion-icon>
+                    <a class="link" href="contact.html">Kontakt</a>
+                </div>
+                <div class="item">
+                    <ion-icon class="icon" name="logo-youtube"></ion-icon>
+                    <a class="link" href="https://www.youtube.com/watch?v=0OzcTXaZuBk">Youtube</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="gallery">
+            <h2 class="title">Galéria</h2>
+            <p class="description">
+                Pozrite sa na výber fotiek z našich prác.
+            </p>
+            
+            <div class="content">
+                <img class="image" src="assets/gallery-1-low.jpg" onclick="showImage('gallery-1-high')" alt="gallery-1" />
+                <img class="image" src="assets/gallery-2-low.jpg" onclick="showImage('gallery-2-high')" alt="gallery-2" />
+                <img class="image" src="assets/gallery-3-low.jpg" onclick="showImage('gallery-3-high')" alt="gallery-3" />
+                <img class="image" src="assets/gallery-6-low.jpg" onclick="showImage('gallery-6-high')" alt="gallery-6" />
+                <img class="image" src="assets/gallery-7-low.jpg" onclick="showImage('gallery-7-high')" alt="gallery-7" />
+                <img class="image" src="assets/gallery-8-low.jpg" onclick="showImage('gallery-8-high')" alt="gallery-8" />
+                <img class="image" src="assets/gallery-10-low.jpg" onclick="showImage('gallery-10-high')" alt="gallery-10" />
+
+                <img class="image" src="assets/gallery-11-low.jpg" onclick="showImage('gallery-11-high')" alt="gallery-11" />
+                <img class="image" src="assets/gallery-13-low.jpg" onclick="showImage('gallery-13-high')" alt="gallery-13" />
+                <img class="image" src="assets/gallery-14-low.jpg" onclick="showImage('gallery-14-high')" alt="gallery-14" />
+                <img class="image" src="assets/gallery-15-low.jpg" onclick="showImage('gallery-15-high')" alt="gallery-15" />
+                <img class="image" src="assets/gallery-16-low.jpg" onclick="showImage('gallery-16-high')" alt="gallery-16" />
+                <img class="image" src="assets/gallery-17-low.jpg" onclick="showImage('gallery-17-high')" alt="gallery-17" />
+                <img class="image" src="assets/gallery-19-low.jpg" onclick="showImage('gallery-19-high')" alt="gallery-19" />
+                <img class="image" src="assets/gallery-20-low.jpg" onclick="showImage('gallery-20-high')" alt="gallery-20" />
+
+                <img class="image" src="assets/gallery-21-low.jpg" onclick="showImage('gallery-21-high')" alt="gallery-21" />
+                <img class="image" src="assets/gallery-24-low.jpg" onclick="showImage('gallery-24-high')" alt="gallery-24" />
+                <img class="image" src="assets/gallery-26-low.jpg" onclick="showImage('gallery-26-high')" alt="gallery-26" />
+                <img class="image" src="assets/gallery-27-low.jpg" onclick="showImage('gallery-27-high')" alt="gallery-27" />
+                <img class="image" src="assets/gallery-28-low.jpg" onclick="showImage('gallery-28-high')" alt="gallery-28" />
+
+                <img class="image" src="assets/gallery-32-low.jpg" onclick="showImage('gallery-32-high')" alt="gallery-32" />
+                <img class="image" src="assets/gallery-33-low.jpg" onclick="showImage('gallery-33-high')" alt="gallery-33" />
+                <img class="image" src="assets/gallery-34-low.jpg" onclick="showImage('gallery-34-high')" alt="gallery-34" />
+                <img class="image" src="assets/gallery-36-low.jpg" onclick="showImage('gallery-36-high')" alt="gallery-36" />
+                <img class="image" src="assets/gallery-37-low.jpg" onclick="showImage('gallery-37-high')" alt="gallery-37" />
+                <img class="image" src="assets/gallery-38-low.jpg" onclick="showImage('gallery-38-high')" alt="gallery-38" />
+                <img class="image" src="assets/gallery-39-low.jpg" onclick="showImage('gallery-39-high')" alt="gallery-39" />
+                <img class="image" src="assets/gallery-40-low.jpg" onclick="showImage('gallery-40-high')" alt="gallery-40" />
+
+                <img class="image" src="assets/gallery-41-low.jpg" onclick="showImage('gallery-41-high')" alt="gallery-41" />
+                <img class="image" src="assets/gallery-42-low.jpg" onclick="showImage('gallery-42-high')" alt="gallery-42" />
+                <img class="image" src="assets/gallery-43-low.jpg" onclick="showImage('gallery-43-high')" alt="gallery-43" />
+                <img class="image" src="assets/gallery-44-low.jpg" onclick="showImage('gallery-44-high')" alt="gallery-44" />
+                <img class="image" src="assets/gallery-46-low.jpg" onclick="showImage('gallery-46-high')" alt="gallery-46" />
+                <img class="image" src="assets/gallery-47-low.jpg" onclick="showImage('gallery-47-high')" alt="gallery-47" />
+
+                <img class="image" src="assets/gallery-52-low.jpg" onclick="showImage('gallery-52-high')" alt="gallery-52" />
+                <img class="image" src="assets/gallery-53-low.jpg" onclick="showImage('gallery-53-high')" alt="gallery-53" />
+                <img class="image" src="assets/gallery-54-low.jpg" onclick="showImage('gallery-54-high')" alt="gallery-54" />
+                <img class="image" src="assets/gallery-56-low.jpg" onclick="showImage('gallery-56-high')" alt="gallery-56" />
+                <img class="image" src="assets/gallery-57-low.jpg" onclick="showImage('gallery-57-high')" alt="gallery-57" />
+                <img class="image" src="assets/gallery-59-low.jpg" onclick="showImage('gallery-59-high')" alt="gallery-59" />
+                <img class="image" src="assets/gallery-60-low.jpg" onclick="showImage('gallery-60-high')" alt="gallery-60" />
+
+                <img class="image" src="assets/gallery-61-low.jpg" onclick="showImage('gallery-61-high')" alt="gallery-61" />
+                <img class="image" src="assets/gallery-62-low.jpg" onclick="showImage('gallery-62-high')" alt="gallery-62" />
+                <img class="image" src="assets/gallery-63-low.jpg" onclick="showImage('gallery-63-high')" alt="gallery-63" />
+                <img class="image" src="assets/gallery-64-low.jpg" onclick="showImage('gallery-64-high')" alt="gallery-64" />
+                <img class="image" src="assets/gallery-65-low.jpg" onclick="showImage('gallery-65-high')" alt="gallery-65" />
+                <img class="image" src="assets/gallery-66-low.jpg" onclick="showImage('gallery-66-high')" alt="gallery-66" />
+                <img class="image" src="assets/gallery-67-low.jpg" onclick="showImage('gallery-67-high')" alt="gallery-67" />
+                <img class="image" src="assets/gallery-68-low.jpg" onclick="showImage('gallery-68-high')" alt="gallery-68" />
+
+                <img class="image" src="assets/gallery-72-low.jpg" onclick="showImage('gallery-72-high')" alt="gallery-72" />
+                <img class="image" src="assets/gallery-75-low.jpg" onclick="showImage('gallery-75-high')" alt="gallery-75" />
+                <img class="image" src="assets/gallery-76-low.jpg" onclick="showImage('gallery-76-high')" alt="gallery-76" />
+                <img class="image" src="assets/gallery-77-low.jpg" onclick="showImage('gallery-77-high')" alt="gallery-77" />
+                <img class="image" src="assets/gallery-78-low.jpg" onclick="showImage('gallery-78-high')" alt="gallery-78" />
+                <img class="image" src="assets/gallery-79-low.jpg" onclick="showImage('gallery-79-high')" alt="gallery-79" />
+                <img class="image" src="assets/gallery-80-low.jpg" onclick="showImage('gallery-80-high')" alt="gallery-80" />
+            </div>
+        </div>
+        
+        <div id="gallery-image-container" onclick="hideImage()">
+            <img id="gallery-image" src="" alt="gallery-current" />
+        </div>
+        
+        <div id="footer">
+            <div class="content">
+                <div class="column">
+                    <img class="logo" src="assets/logo.png" />
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Menu</h2>
+                    
+                    <a class="item" href="index.html">Domov</a>
+                    <a class="item" href="index.html#services">Služby</a>
+                    <a class="item" href="index.html#about">Prečo my?</a>
+                    <a class="item" href="index.html#about">O nás</a>
+                    <a class="item" href="contact.html">Kontakt</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Hlavné služby</h2>
+                    
+                    <a class="item" href="index.html#services">Rekonštrukcie bytov</a>
+                    <a class="item" href="index.html#services">Sadrokartón</a>
+                    <a class="item" href="index.html#services">Omietky/Stierky</a>
+                    <a class="item" href="index.html#services">Maliarske práce</a>
+                    <a class="item" href="index.html#services">Obklady a dlažby</a>
+                    <a class="item" href="index.html#services">Zateplenie a fasády</a>
+                    <a class="item" href="index.html#services">Vodoinštalácia</a>
+                    <a class="item" href="index.html#services">Elektroinštalácia</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Doplnkové služby</h2>
+                    
+                    <a class="item" href="index.html#services">Predaj a odvoz materiálu</a>
+                    <a class="item" href="index.html#services">Sťahovanie</a>
+                    <a class="item" href="index.html#services">Okná a dvere</a>
+                    <a class="item" href="index.html#services">Zámkové dlažby</a>
+                    <a class="item" href="index.html#services">Upratovanie a čistenie</a>
+                    <a class="item" href="index.html#services">Potery a nivelizácia</a>
+                    <a class="item" href="index.html#services">Murárske práce</a>
+                    <a class="item" href="index.html#services">Realizácia na kľúč</a>
+                </div>
+                
+                <div class="column">
+                    <h2 class="title">Kontakt</h2>
+                    
+                    <a class="item" href="http://maps.google.com/?q=murar-ba">Trnavská cesta 164/46, 821 02 Bratislava</a>
+                    <a class="item" href="tel: +421-949-643-351">+421 949 643 351</a>
+                    <a class="item" href="mailto:info@murar-ba.sk">info@murar-ba.sk</a>
+                    <br />
+                    <h5 class="item" href="">JURMASTAV s.r.o.</h5>
+                    <h5 class="item" href="">IČO: 52290085</h5>
+                    <h5 class="item" href="">DIČ DPH: 2120993160</h5>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <h2 class="text">© 2020 murar-ba.sk | Web created by <a style="color: #FBC638;" href="http://www.advision.sk">AdVision</a></h2>
+            </div>
+        </div>
+        
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="js/slideshow.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/gallery.js"></script>
+        <script>
+            scrollToElement("#arrow");
+            
+            function scrollToElement(button) {
+                $(document).ready(function(){
+                    $(button).on('click', function(event) {
+                        if (this.hash !== "") {
+                            event.preventDefault();
+
+                            var hash = this.hash;
+
+                            $('html, body').animate({
+                                scrollTop: $(hash).offset().top
+                            }, 800, function(){
+                                window.location.hash = hash;
+                            });
+                        }
+                    });
+                });   
+            }
+        </script>
+        <script>
+            $(window).scroll(function() {    
+                var offset = window.pageYOffset;
+                
+                if (offset > 300) {
+                    document.getElementById("arrow").style.opacity = "1";
+                } else {
+                    document.getElementById("arrow").style.opacity = "0";
+                }
+            });
+        </script>
+    </body>
+</html>
